@@ -1,0 +1,25 @@
+#head_img {
+	background-image: url("../images/joy_of_cha_edit.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+#h_divide {
+	background-color: #00C110;
+	width: 100%;
+	height: 10px;
+}
+
+#about {
+	background-image: url("../images/joc_inside.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
