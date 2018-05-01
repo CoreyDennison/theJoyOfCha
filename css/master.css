@@ -1,17 +1,51 @@
+#nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 30px;
+  float: center;
+  margin: 0px 250px 0px 250px;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: "Merriweather Sans", "sans-serif";
+	font-size: 30px;
+	padding: 10px;
+}
+
+#nav ul li a:hover {
+	border-style: solid;
+	border-color: #68E500;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: "Merriweather Sans", "sans-serif";
+	color: white;
+	transition: background-color 0.5s ease;
+	background-color: #68E500;
+}
+
+
 #head_img {
 	background-image: url("../images/joy_of_cha_edit.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 650px;
-	position: relative;
 	background-position: center;
 	background-attachment: fixed;
 
 }
 
+#head_img img {
+	position: relative;
+	top: 100px;
+	left:420px;
+}
+
 #h_divide {
-	background-color: #00C110;
+	background-color: #419000;
 	width: 100%;
 	height: 10px;
 }
@@ -21,5 +55,23 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 600px;
+}
+
+#gallery {
+	background-color: #68E500;
+	height: 600px;
+	width: 100%;
+}
+
+#menu {
+	background-color: white;
+	height: 600px;
+	width: 100%;
+}
+
+#contact {
+	background-color: #028500;
+	height: 600px;
+	width: 100%;
 }
