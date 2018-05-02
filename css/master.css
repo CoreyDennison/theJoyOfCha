@@ -41,7 +41,7 @@
 #head_img img {
 	position: relative;
 	top: 100px;
-	left:420px;
+	left:410px;
 }
 
 #h_divide {
@@ -66,10 +66,31 @@
 	height: 600px;
 }
 
+
 #about h1 {
 	color: #028500;
 	font-family: "Merriweather Sans", "sans-serif";
-	font-size: 30px;
+	font-size: 50px;
+	padding: 20px 0px 20px 20px;
+}
+
+#about p {
+	color: white;
+	font-size: 28px;
+	padding: 0px 10px 30px 20px;
+	padding-right: ;
+	font-family: helvetica, verdana, sans-serif;
+}
+
+.about_container {
+	background-color: #d2d2d2;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	width: 800px;
+	position: relative;
+	top: 150px;
+	left: 20px;
 }
 
 #gallery {
