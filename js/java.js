@@ -1,9 +1,12 @@
-(function() {
- var aboutEl = $('div.about_container'),
- aboutElOffset = aboutEl.offset().top/6,
+/*about container 'fade in' script*/
+$(document).ready(function() {
+
+ var aboutEl = $('div.aboutc'),
+ aboutElOffset = aboutEl.offset().top/2,
  documentEl = $(document);
  documentEl.on('scroll', function(){
- 	if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('container')) aboutEl.removeClass('container');
+ 	if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('cont')) aboutEl.removeClass('cont');
+
  });
 
 });

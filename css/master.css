@@ -1,3 +1,4 @@
+/*navigation bar code*/
 #nav ul {
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@
 	background-color: #68E500;
 }
 
-
+/*header code*/
 #head_img {
 	background-image: url("../images/joy_of_cha_edit.png");
 	background-repeat: no-repeat;
@@ -50,6 +51,7 @@
 	height: 10px;
 }
 
+/*about code*/
 #about {
 	background-image: url("../images/joc_inside.jpg");
 	background-repeat: no-repeat;
@@ -57,54 +59,49 @@
 	width: 100%;
 	height: 600px;
 }
-
-#about {
-	background-image: url("../images/joc_inside.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 600px;
-}
-
 
 #about h1 {
-	color: #028500;
+	color: #419000;
+	text-shadow: 2px 2px black;
 	font-family: "Merriweather Sans", "sans-serif";
 	font-size: 50px;
-	padding: 20px 0px 20px 20px;
+	padding: 200px 0px 20px 20px;
+	transition: all 0.8s ease;
 }
 
 #about p {
 	color: white;
+	text-shadow: 2px 2px black;
 	font-size: 28px;
 	padding: 0px 10px 30px 20px;
 	padding-right: ;
 	font-family: helvetica, verdana, sans-serif;
+	transition: all 0.8s ease;
 }
 
-.about_container {
-	background-color: #d2d2d2;
-	border-style: solid;
-	border-color: white;
-	border-width: 3px;
-	width: 800px;
-	position: relative;
-	top: 150px;
-	left: 20px;
+.aboutc.cont h1 {
+	opacity: 0;
 }
 
+.aboutc.cont p {
+	opacity: 0;
+}
+
+/*gallery code*/
 #gallery {
 	background-color: #68E500;
 	height: 600px;
 	width: 100%;
 }
 
+/*menu code*/
 #menu {
 	background-color: white;
 	height: 600px;
 	width: 100%;
 }
 
+/*contact code*/
 #contact {
 	background-color: #028500;
 	height: 600px;
