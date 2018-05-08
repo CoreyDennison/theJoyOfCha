@@ -90,8 +90,103 @@
 /*gallery code*/
 #gallery {
 	background-color: #68E500;
-	height: 600px;
+	height: 400px;
 	width: 100%;
+	display: flex;
+}
+
+.main {
+	width: 98%;
+	display: block;
+	margin: 0 auto;
+	height: 350px;
+	background-color: red;
+	align-self: center;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 5px;
+}
+
+.long_container {
+	height: 100%;
+}
+
+.item {
+	height: 100%;
+	width: 250px;
+	float: left;
+
+}
+
+.see_prev {
+	height: 100%;
+	width: 50px;
+	position: absolute;
+	left: 0;
+	display: flex;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.arrow_prev {
+	width: 100%;
+	align-self: center;
+}
+
+.see_next {
+	height: 100%;
+	width: 50px;
+	position: absolute;
+	right: 0;
+	display: flex;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.arrow_next {
+	width: 100%;
+	align-self: center;
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#one {
+	background-image: url("../images/pizza.jpg");
+}
+
+#two {
+	background-image: url("../images/bisquit.jpg");
+}
+
+#three {
+	background-image: url("../images/bread.jpg");
+}
+
+#four {
+	background-image: url("../images/chiara-pinna.jpg");
+}
+
+#five {
+	background-image: url("../images/coffee.jpg");
+}
+
+#six {
+	background-image: url("../images/food1.jpg");
+}
+
+#seven {
+	background-image: url("../images/croissants.jpg");
+}
+
+#eight {
+	background-image: url("../images/cup.jpg");
+}
+
+#nine {
+	background-image: url("../images/food2.jpg");
 }
 
 /*menu code*/
