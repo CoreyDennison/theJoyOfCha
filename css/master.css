@@ -102,7 +102,7 @@
 	display: block;
 	margin: 0 auto;
 	height: 350px;
-	background-color: red;
+	background-color: white;
 	align-self: center;
 	position: relative;
 	overflow: hidden;
@@ -193,10 +193,70 @@
 
 /*menu code*/
 #menu {
-	background-color: white;
+	background-color: #419000;
 	height: 600px;
-	width: 100%;
+	color: white;
 }
+
+#menu h1 {
+	text-align: center;
+	width: 80%;
+	float: right;
+	padding: 20px 0pc 100px 0px;
+	font-family: "Merriweather Sans", "sans-serif";
+	font-size: 50px;
+}
+
+.menu_nav {
+	height: 100%;
+	width: 12%;
+	background-color: white;
+	float: left;
+}
+
+.menu_nav ul {
+	display: block;
+	line-height: 150px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 70px;
+}
+
+.menu_nav ul li a{
+	color: #028500;
+	font-family: "Merriweather Sans", "sans-serif";
+	text-decoration: none;
+}
+
+.menu_nav ul li a:hover {
+	color: white;
+	background-color: #419000;
+	padding: 40px 50px 40px 45px;
+	transition: background-color 0.2s ease;
+}
+
+.menu_nav ul li a:focus {
+	color: white;
+	background-color: #419000;
+	padding: 40px 50px 40px 45px;
+	transition: background-color 0.2s ease;
+}
+
+
+/*
+.menu_nav ul li a:hover:nth-of-type(2) {
+	color: white;
+	background-color: yellow;
+	padding: 10px 5px 10px 5px;
+}
+
+.menu_nav ul li a:hover:nth-child(3) {
+	color: white;
+	background-color: #419000;
+	padding: 10px 50px 10px 50px;
+}
+*/
 
 /*contact code*/
 #contact {
