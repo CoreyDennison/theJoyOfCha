@@ -202,9 +202,84 @@
 	text-align: center;
 	width: 80%;
 	float: right;
-	padding: 20px 0pc 100px 0px;
+	padding-top: 20px;
 	font-family: "Merriweather Sans", "sans-serif";
 	font-size: 50px;
+}
+
+.tea_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 300px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.tea_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 720px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+	float: left;
+}
+
+.coffee_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 300px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.coffee_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 720px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+	float: left;
+}
+
+.food_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 200px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.food_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 750px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+	float: left;
 }
 
 .menu_nav {
@@ -214,49 +289,81 @@
 	float: left;
 }
 
-.menu_nav ul {
-	display: block;
-	line-height: 150px;
-	text-decoration: none;
+.tea {
+	padding-top: 150px;
+	padding-bottom: 100px;
 	text-align: center;
-	font-size: 40px;
-	padding-top: 70px;
-}
-
-.menu_nav ul li a{
-	color: #028500;
 	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.tea a {
 	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
 }
 
-.menu_nav ul li a:hover {
+.tea a:hover{
 	color: white;
 	background-color: #419000;
-	padding: 40px 50px 40px 45px;
+	padding: 40px 42px 40px 42px;
 	transition: background-color 0.2s ease;
 }
 
-.menu_nav ul li a:focus {
+.tea a:focus{
 	color: white;
 	background-color: #419000;
-	padding: 40px 50px 40px 45px;
+	padding: 40px 42px 40px 42px;
+}
+
+.coffee {
+	padding-bottom: 100px;
+	text-align: center;
+	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.coffee a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
+}
+
+.coffee a:hover{
+	color: white;
+	background-color: #419000;
+	padding: 40px 16px 40px 16px;
 	transition: background-color 0.2s ease;
 }
 
-
-/*
-.menu_nav ul li a:hover:nth-of-type(2) {
-	color: white;
-	background-color: yellow;
-	padding: 10px 5px 10px 5px;
-}
-
-.menu_nav ul li a:hover:nth-child(3) {
+.coffee a:focus{
 	color: white;
 	background-color: #419000;
-	padding: 10px 50px 10px 50px;
+	padding: 40px 16px 40px 16px;
 }
-*/
+
+.food {
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.food a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
+}
+
+.food a:hover{
+	color: white;
+	background-color: #419000;
+	padding: 40px 32px 40px 32px;
+	transition: background-color 0.2s ease;
+}
+
+.food a:focus{
+	color: white;
+	background-color: #419000;
+	padding: 40px 32px 40px 32px;
+}
 
 /*contact code*/
 #contact {

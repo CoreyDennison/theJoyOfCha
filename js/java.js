@@ -76,6 +76,36 @@ $(".see_prev").click(function(){
   });
 });
 
+//Café Menu code
+$(document).ready(function(){
+	$(".tea").click(function(){
+		$(".tea_menu").fadeIn(1000);
+		$(".tea_price").fadeIn(1000);
+		$(".coffee_menu").fadeOut(0);
+		$(".coffee_price").fadeOut(0);
+		$(".food_menu").fadeOut(0);
+		$(".food_price").fadeOut(0);
+	});
+
+	$(".coffee").click(function(){
+		$(".coffee_menu").fadeIn(1000);
+		$(".coffee_price").fadeIn(1000);
+		$(".tea_menu").fadeOut(0);
+		$(".tea_price").fadeOut(0);
+		$(".food_menu").fadeOut(0);
+		$(".food_price").fadeOut(0);
+	});
+
+	$(".food").click(function(){
+		$(".food_menu").fadeIn(1000);
+		$(".food_price").fadeIn(1000);
+		$(".coffee_menu").fadeOut(0);
+		$(".coffee_price").fadeOut(0);
+		$(".tea_menu").fadeOut(0);
+		$(".tea_price").fadeOut(0);	
+	});
+
+});
 
 
 
