@@ -108,10 +108,14 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){ 
+	$(".burger-nav").click(function(){
+		$("#nav ul").fadeToggle(500);
+		$(".logo").fadeToggle(0);
+	});
 
 
-
-
+});
 
 
 

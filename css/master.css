@@ -14,6 +14,7 @@ html,body
   padding-top: 30px;
   float: center;
   margin: 0px 250px 0px 250px;
+  opacity: 1;
 }
 
 #nav ul li a {
@@ -44,13 +45,16 @@ html,body
 	height: 650px;
 	background-position: center;
 	background-attachment: fixed;
-
 }
 
-#head_img img {
-	position: relative;
-	top: 100px;
-	left:410px;
+.logo {
+	background-image: url("../images/joc_logo.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 20%;
+	background-attachment: fixed;
+	opacity: 1;
 }
 
 #h_divide {
@@ -126,7 +130,6 @@ html,body
 	height: 100%;
 	width: 250px;
 	float: left;
-
 }
 
 .see_prev {
@@ -136,11 +139,13 @@ html,body
 	left: 0;
 	display: flex;
 	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
 }
 
 .arrow_prev {
 	width: 100%;
 	align-self: center;
+	cursor: pointer;
 }
 
 .see_next {
@@ -150,11 +155,13 @@ html,body
 	right: 0;
 	display: flex;
 	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
 }
 
 .arrow_next {
 	width: 100%;
 	align-self: center;
+	cursor: pointer;
 }
 
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine {
@@ -236,7 +243,6 @@ html,body
 	font-size: 30px;
 	line-height: 50px;
 	display: none;
-	white-space: nowrap;
 	float: left;
 }
 
@@ -244,7 +250,7 @@ html,body
 	color: white;
 	position: relative;
 	top: 140px;
-	left: 300px;
+	left: 400px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
@@ -256,7 +262,7 @@ html,body
 	color: white;
 	position: relative;
 	bottom: 210px;
-	left: 720px;
+	left: 700px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
@@ -393,4 +399,202 @@ html,body
 	top: 100px;
 	left: 30px;
 	line-height: 50px;
+}
+
+
+
+
+/*Tablet Responsiveness*/
+@media only screen and (max-width: 768px){
+
+/*Hamburger Menu code*/
+	#nav ul {
+		overflow: hidden;
+		background-color: #419000; 
+		width: 100%;
+		display: block;
+		position: relative;
+		top: -80px;
+		left: -250px;
+		display: none;
+		height: 300px;
+		z-index: 1;
+	}
+
+	#nav ul li {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding: 15px;
+		display: block;
+	}
+
+	.burger-nav {
+		display: block;
+		height: 80px;
+		width: 80px;
+		background-color: #419000; 
+		color: white;
+		cursor: pointer;
+		font-size: 55px;
+		padding: 12px 0px 10px 15px;
+		border-radius: 10px;
+		border-style: solid;
+		border-color: #419000;
+		position: relative;
+		top: 15px;
+		left: 670px;
+		z-index: 2;
+	}
+
+	.tea_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.tea_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 500px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	float: left;
+}
+
+.coffee_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 200px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.coffee_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 500px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+	float: left;
+}
+
+.food_menu {
+	color: white;
+	position: relative;
+	top: 140px;
+	left: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+}
+
+.food_price {
+	color: white;
+	position: relative;
+	bottom: 210px;
+	left: 550px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	display: none;
+	white-space: nowrap;
+	float: left;
+}
+
+.tea {
+	padding-top: 150px;
+	padding-bottom: 100px;
+	text-align: center;
+	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.tea a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
+}
+
+.tea a:hover{
+	color: white;
+	background-color: #419000;
+	padding: 40px 43px 40px 43px;
+	transition: background-color 0.2s ease;
+}
+
+.tea a:focus{
+	color: white;
+	background-color: #419000;
+	padding: 40px 42px 40px 42px;
+}
+
+.coffee {
+	padding-bottom: 100px;
+	text-align: center;
+	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.coffee a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
+}
+
+.coffee a:hover{
+	color: white;
+	background-color: #419000;
+	padding: 40px 16px 40px 16px;
+	transition: background-color 0.2s ease;
+}
+
+.coffee a:focus{
+	color: white;
+	background-color: #419000;
+	padding: 40px 16px 40px 16px;
+}
+
+.food {
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: "Merriweather Sans", "sans-serif";
+}
+
+.food a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #419000;
+}
+
+.food a:hover{
+	color: white;
+	background-color: #419000;
+	padding: 40px 32px 40px 32px;
+	transition: background-color 0.2s ease;
+}
+
+.food a:focus{
+	color: white;
+	background-color: #419000;
+	padding: 40px 32px 40px 32px;
+}
+
 }
