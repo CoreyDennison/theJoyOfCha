@@ -52,7 +52,7 @@ html,body
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
-	background-position: 50% 70%;
+	background-position: 50% 30%;
 	background-attachment: fixed;
 	opacity: 1;
 }
@@ -221,65 +221,67 @@ html,body
 	font-family: "Merriweather Sans", "sans-serif";
 	font-size: 50px;
 }
-/*
+
 .drop_down {
 	display: none;
 }
-*/
+
 .tea_menu {
 	color: white;
-	position: relative;
-	top: 140px;
-	left: 300px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
 	display: none;
 	white-space: nowrap;
+	float: left;
 }
 
-.tea_price {
-	color: white;
+.tea_menu li span {
+	padding-left: 200px; 
+	float: right;
+}
+
+.tea_container {
+	width: 750px;
+	height: 500px;
 	position: relative;
-	bottom: 210px;
-	left: 720px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	float: left;
+	top: 70px;
+	left: 270px;
+	border-color: #419000;
+	border-width: 3px;
+	border-style: solid;
+	padding: -100px 100px -100px 50px;
 }
 
 .coffee_menu {
 	color: white;
-	position: relative;
-	top: 140px;
-	left: 400px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
 	display: none;
 	white-space: nowrap;
+
 }
 
-.coffee_price {
-	color: white;
+.coffee_menu li span {
+	float: right;
+}
+
+.coffee_container {
+	width: 650px;
+	height: 400px;
 	position: relative;
-	bottom: 210px;
-	left: 700px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-	float: left;
+	top: -460px;
+	left: 410px;
+	border-color: white;
+	border-style: solid;
+	padding: 100px;
 }
 
 .food_menu {
 	color: white;
 	position: relative;
-	top: 140px;
-	left: 200px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
@@ -287,17 +289,19 @@ html,body
 	white-space: nowrap;
 }
 
-.food_price {
-	color: white;
+.food_menu li span {
+ 	float: right;
+}
+
+.food_container {
+	width: 900px;
+	height: 400px;
 	position: relative;
-	bottom: 210px;
-	left: 750px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-	float: left;
+	top: -840px;
+	left: 260px;
+	border-color: white;
+	border-style: solid;
+	padding: 100px;
 }
 
 .menu_nav {
