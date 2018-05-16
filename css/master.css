@@ -52,7 +52,7 @@ html,body
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
-	background-position: 50% 20%;
+	background-position: 50% 70%;
 	background-attachment: fixed;
 	opacity: 1;
 }
@@ -221,7 +221,11 @@ html,body
 	font-family: "Merriweather Sans", "sans-serif";
 	font-size: 50px;
 }
-
+/*
+.drop_down {
+	display: none;
+}
+*/
 .tea_menu {
 	color: white;
 	position: relative;
@@ -314,6 +318,7 @@ html,body
 	text-decoration: none;
 	font-size: 40px;
 	color: #419000;
+	cursor: pointer;
 }
 
 .tea a:hover{
@@ -339,6 +344,7 @@ html,body
 	text-decoration: none;
 	font-size: 40px;
 	color: #419000;
+	cursor: pointer;
 }
 
 .coffee a:hover{
@@ -364,6 +370,7 @@ html,body
 	text-decoration: none;
 	font-size: 40px;
 	color: #419000;
+	cursor: pointer;
 }
 
 .food a:hover{
@@ -418,7 +425,6 @@ html,body
 		left: -250px;
 		display: none;
 		height: 300px;
-		z-index: 1;
 	}
 
 	#nav ul li {
@@ -427,6 +433,10 @@ html,body
 		width: 100%;
 		padding: 15px;
 		display: block;
+	}
+
+	#nav ul li a:hover {
+		background-color: #419000;
 	}
 
 	.burger-nav {
@@ -447,154 +457,44 @@ html,body
 		z-index: 2;
 	}
 
-	.tea_menu {
-	color: white;
-	position: relative;
-	top: 140px;
-	left: 100px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-}
+	/*Info repositioning*/
+	#about h1 {
+		padding: 150px 0px 20px 50px;
+	}
 
-.tea_price {
-	color: white;
-	position: relative;
-	bottom: 210px;
-	left: 500px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	float: left;
-}
+   	/*Menu catagories*/
+   	.menu_nav {
+   		display: none;
+   	}
 
-.coffee_menu {
-	color: white;
-	position: relative;
-	top: 140px;
-	left: 200px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-}
+   	#menu h1 {
+   		width: 100%;
+   		float: center;	
+   	}
 
-.coffee_price {
-	color: white;
-	position: relative;
-	bottom: 210px;
-	left: 500px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-	float: left;
-}
+   	/*Drop down menu*/
 
-.food_menu {
-	color: white;
-	position: relative;
-	top: 140px;
-	left: 100px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-}
 
-.food_price {
-	color: white;
-	position: relative;
-	bottom: 210px;
-	left: 550px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	display: none;
-	white-space: nowrap;
-	float: left;
-}
+   	.drop_down ul {
+   		margin: 0;
+   		padding: 0;
+   		float: center;
+   		list-style-type: none;
+   		padding-left: 270px;
+   	}
 
-.tea {
-	padding-top: 150px;
-	padding-bottom: 100px;
-	text-align: center;
-	font-family: "Merriweather Sans", "sans-serif";
-}
+   	.drop_down ul li {
+   		float: center;
+   	}
 
-.tea a {
-	text-decoration: none;
-	font-size: 40px;
-	color: #419000;
-}
-
-.tea a:hover{
-	color: white;
-	background-color: #419000;
-	padding: 40px 43px 40px 43px;
-	transition: background-color 0.2s ease;
-}
-
-.tea a:focus{
-	color: white;
-	background-color: #419000;
-	padding: 40px 42px 40px 42px;
-}
-
-.coffee {
-	padding-bottom: 100px;
-	text-align: center;
-	font-family: "Merriweather Sans", "sans-serif";
-}
-
-.coffee a {
-	text-decoration: none;
-	font-size: 40px;
-	color: #419000;
-}
-
-.coffee a:hover{
-	color: white;
-	background-color: #419000;
-	padding: 40px 16px 40px 16px;
-	transition: background-color 0.2s ease;
-}
-
-.coffee a:focus{
-	color: white;
-	background-color: #419000;
-	padding: 40px 16px 40px 16px;
-}
-
-.food {
-	padding-bottom: 50px;
-	text-align: center;
-	font-family: "Merriweather Sans", "sans-serif";
-}
-
-.food a {
-	text-decoration: none;
-	font-size: 40px;
-	color: #419000;
-}
-
-.food a:hover{
-	color: white;
-	background-color: #419000;
-	padding: 40px 32px 40px 32px;
-	transition: background-color 0.2s ease;
-}
-
-.food a:focus{
-	color: white;
-	background-color: #419000;
-	padding: 40px 32px 40px 32px;
-}
-
-}
+   	.drop_down ul li a {
+   		display: inline-block;
+   		background-color: #237800;
+   		width: 200px;
+   		padding: 15px 20px;
+   		height: 50px;
+   		font-size: 24px;
+   		color: white;
+   		font-family: "Merriweather Sans", "sans-serif";
+   		text-decoration: none;
+   	}
