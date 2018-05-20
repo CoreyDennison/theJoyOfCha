@@ -113,12 +113,7 @@ $(document).ready(function(){
 		$("#nav ul").fadeToggle(500);
 		$(".logo").fadeToggle(0);
 	});
-
-
 });
-
-
-
 
 
 

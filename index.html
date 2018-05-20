@@ -75,7 +75,7 @@
 		<div id="menu">
 			<h1>Menu</h1>
 
-			<nav class="drop_down">
+			<nav class="respon_menu">
 				<ul>
 					<li><a href="#/" class="tea">Tea</a></li>
 					<li><a href="#/" class="coffee">Coffee</a></li>
@@ -139,10 +139,37 @@
 
 			<ul>
 				<li><i class="fas fa-phone"></i>+353 1 675 3548</li>
-				<li><i class="fas fa-map-marker"></i>10 Essex Street East | Temple Bar, Dublin 2, Ireland</li>
-				<li><i class="fas fa-envelope"></i>contact@joyofcha.ie</li>
+				<li><i class="fas fa-map-marker"></i>10 Essex Street East | Temple Bar, Dublin <span>2, Ireland</span></li>
 			</ul>
 
+			<p><i class="fas fa-envelope"></i>contact@joyofcha.ie</p>
+
+			<ol>
+				<li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/The-Joy-Of-Ch%C3%A1-223759564393210/">Facebook</a></li>
+
+				<li><i class="fab fa-twitter-square"></i><a href="#/">Twitter</a></li>
+
+				<li><i class="fab fa-instagram"></i><a href="#/">Instagram</a></li>
+			</ol>
+
+			<div id="map">
+				<script>
+				      function initMap() {
+				        var uluru = {lat: 53.345217, lng: -6.266051};
+				        var map = new google.maps.Map(document.getElementById('map'), {
+				          zoom: 17,
+				          center: uluru
+				        });
+				        var marker = new google.maps.Marker({
+				          position: uluru,
+				          map: map
+				        });
+				      }
+				    </script>
+				    <script async defer
+				    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzqYN53SLtbKM2nbwBb8Dwm_XQYPz4dCg&callback=initMap">
+			    </script>
+			</div>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
