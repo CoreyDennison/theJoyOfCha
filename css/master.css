@@ -93,9 +93,11 @@ html,body
 	font-family:  'Montserrat', sans-serif;
 	transition: all 0.8s ease;
 }
- 
+
+ /*Code for fade in on scroll: https://www.youtube.com/watch?v=RY5ZAUtrlaM&index=12&list=LLAh98or-kA2l2CkutpdIH0A
+ 	"Scoll Activated Animation || HTML, CSS, JQuery"*/
 .aboutc.cont h1 {
-	opacity: 0;
+opacity: 0;
 }
 
 .aboutc.cont p {

@@ -1,4 +1,6 @@
 /*about container 'fade in' script*/
+ /*Code for fade in on scroll: https://www.youtube.com/watch?v=RY5ZAUtrlaM&index=12&list=LLAh98or-kA2l2CkutpdIH0A
+ 	"Scoll Activated Animation || HTML, CSS, JQuery"*/
 $(document).ready(function() {
 
  var aboutEl = $('div.aboutc'),
@@ -12,6 +14,9 @@ $(document).ready(function() {
 });
 
 /*gallery code*/
+/*Code for scrolling gallery: Chapter 5 from "Head First JQuery" / 
+https://www.youtube.com/watch?v=mK2U9fMa9Rw&t=35s&list=LLAh98or-kA2l2CkutpdIH0A&index=8
+"Awesome JQuery Photo Gallery [VOICE TUTORIAL]"*/
 $(document).ready(function(){
 
 var window_width = $(window).width();
@@ -48,7 +53,6 @@ $(".see_next").click(function(){
 		});
 	}
 });
-
 
 $(".see_prev").click(function(){
 	if(slide_number > 0){
@@ -107,7 +111,7 @@ $(document).ready(function(){
 
 });
 
-
+//hamuburger menu code
 $(document).ready(function(){ 
 	$(".burger-nav").click(function(){
 		$("#nav ul").fadeToggle(500);
