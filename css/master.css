@@ -53,7 +53,7 @@ html,body
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
-	background-position: 50% 60%;
+	background-position: 50% 30%;
 	background-attachment: fixed;
 	opacity: 1;
 }
@@ -492,7 +492,7 @@ opacity: 0;
 	}
 
 	.logo {
-		background-position: 50% 55%;
+		background-position: 50% 30%;
 	}
 
 	/*Info repositioning*/
@@ -616,7 +616,7 @@ opacity: 0;
 
 	.logo {
 		background-size: 250px 170px;
-		background-position: 50% 20%;
+		background-position: 50% 10%;
 	}
 
 	#about {
